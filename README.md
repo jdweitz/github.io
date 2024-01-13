@@ -1,2 +1,2 @@
-# github.io
+# jdweitz.github.io
 Personal website
