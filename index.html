@@ -12,7 +12,9 @@
       cursor: pointer;
       padding: 14px 16px;
       font-size: 17px;
-      width: 33.33%;
+      width: calc(33.33% - 2px); /* Adjusting for the border's potential impact */
+      display: inline-block; /* Ensure it's displayed inline */
+      text-align: center; /* Optional: For better visual alignment */
     }
     .tablink:hover {
       background-color: #777;
